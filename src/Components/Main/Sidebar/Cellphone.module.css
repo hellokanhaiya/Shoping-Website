@@ -1,0 +1,89 @@
+.cataogary {
+  display: flex;
+}
+.sidebarcontent {
+  min-width: 291px;
+}
+.ulBorder {
+  border: 1px solid #e0e0e0;
+  border-top: none;
+}
+.listBorder {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0.6rem;
+}
+.listBorder:last-child {
+  border: none;
+}
+.sidebarimg {
+  height: 440px !important;
+  height: fit-content;
+}
+.weekendDiscount {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 0.625rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  height: 1.4375rem;
+  background-color: #ffbd27;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  border-radius: 1.4375rem;
+}
+.icon {
+  float: right;
+}
+.hidden {
+  display: none;
+}
+
+.group:hover .hidden {
+  display: block;
+}
+/* Cellphone.module.css */
+@media screen and (max-width: 768px) {
+  .flex-container {
+    flex-wrap: wrap;
+  }
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bannerContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://754969b0.rocketcdn.me/machic/wp-content/uploads/2021/09/slider-banner-1.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.bannerContent {
+  background-color: rgba(0, 0, 0, 0.5); /* Optional for better readability */
+  padding: 2rem;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+@media (min-width: 1024px) {
+  .bannerContainer {
+    height: 400px; /* Adjust height as needed */
+  }
+  .bannerContent {
+    text-align: left;
+    padding-left: 3rem;
+  }
+}

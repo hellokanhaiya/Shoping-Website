@@ -1,0 +1,12 @@
+.shimpmetdetail {
+  border: 1px solid #e0e0e0;
+}
+.shipmentIcon:first-child {
+  margin-right: 1rem;
+}
+.shipmentlist {
+  border-bottom: 1px solid #e0e0e0;
+}
+.shipmentlist:last-child {
+  border-bottom: none;
+}

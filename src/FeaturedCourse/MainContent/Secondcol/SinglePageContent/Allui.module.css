@@ -1,0 +1,13 @@
+.listdisc {
+  list-style-type: disc;
+}
+.borderbottom {
+  border-bottom: 1px solid #ccc;
+}
+.normalOpacity {
+  opacity: 1;
+}
+
+.reducedOpacity {
+  opacity: 0.5;
+}

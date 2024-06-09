@@ -1,0 +1,9 @@
+.entrytitle::before {
+  content: "";
+  display: block;
+  width: 1.875rem;
+  height: 1px;
+  background-color: currentColor;
+  margin-top: 8px;
+  margin-right: 0.625rem;
+}

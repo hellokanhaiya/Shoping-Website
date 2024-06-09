@@ -1,0 +1,12 @@
+.borderbottom {
+  border-bottom: 1px solid #d9dde3;
+}
+th {
+  padding-right: 1rem;
+}
+.lightbroderbottom {
+  border-bottom: 1px solid #ccc;
+}
+.border {
+  border: 1px solid #ccc;
+}

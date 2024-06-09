@@ -1,0 +1,13 @@
+.discountab {
+  position: absolute;
+  top: 0px;
+  background: #dc3545;
+  left: -80px;
+  z-index: 18;
+  color: white;
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+.discountreal {
+  position: relative;
+}

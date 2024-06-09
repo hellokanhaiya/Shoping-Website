@@ -1,0 +1,13 @@
+.filterborder {
+  border-bottom: 1px solid #ccc;
+}
+.colorbox {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  margin-right: 10px;
+}

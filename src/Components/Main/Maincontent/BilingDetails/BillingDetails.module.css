@@ -1,0 +1,58 @@
+.border {
+  border: 1px solid #ccc;
+}
+.borderbottom {
+  border-bottom: 1px solid #d9dde3;
+}
+.border {
+  border: 1px solid #ccc;
+}
+.input {
+  border: 1px solid #ccc;
+  border-radius: 0.2rem;
+  width: 100%;
+  padding: 0 0.2rem;
+  height: 40px;
+}
+.logoscontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  width: 100%;
+}
+
+.borderbottom {
+  border-bottom: 1px solid #ccc;
+}
+
+@media screen and (max-width: 950px) {
+  .logoscontainer {
+    flex-wrap: wrap;
+  }
+  .logoscontainer > * {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 951px) {
+  .logoscontainer {
+    flex-direction: row;
+  }
+  .firstcol {
+    width: 65%;
+  }
+  .secondcol {
+    width: 35%;
+  }
+}
+.fontweight {
+  font-weight: 800;
+}

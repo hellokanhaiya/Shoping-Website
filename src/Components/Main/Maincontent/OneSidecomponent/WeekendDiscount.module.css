@@ -1,0 +1,15 @@
+@media (max-width: 900px) {
+  .logoscontainer {
+    flex-wrap: wrap; /* Change to wrap */
+  }
+  .textcontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+  .secondcol {
+    width: 100%;
+  }
+}

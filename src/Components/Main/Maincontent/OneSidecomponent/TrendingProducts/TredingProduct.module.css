@@ -1,0 +1,43 @@
+.discountab {
+  position: absolute;
+  top: 13px;
+  background: #dc3545;
+  left: 37px;
+  z-index: 18;
+  color: white;
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+.discountreal {
+  position: relative;
+}
+.costumborder {
+  border: 1px solid #e0e0e0;
+  border-radius: 0.2rem;
+}
+.hoverwidth:hover {
+  border: 1px solid #e0e0e0;
+}
+.phoneCard {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding: 20px;
+}
+
+.phoneCardTitle {
+  color: blue;
+  font-size: 12px;
+}
+
+.phoneCardHeading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.shopButton {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}

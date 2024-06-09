@@ -1,0 +1,11 @@
+.alldepartments {
+  min-width: 293px;
+  height: 54px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  background-color: #f7f8f9;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,19 @@
+.firstcol {
+  border: 1px solid #ccc;
+}
+.discountreal {
+  position: relative;
+}
+.discountab {
+  position: absolute;
+  top: 13px;
+  background: #dc3545;
+  left: 37px;
+  z-index: 18;
+  color: white;
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+.borderbottom {
+  border-bottom: 1px solid #ccc;
+}

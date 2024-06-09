@@ -1,0 +1,11 @@
+.entrytitle {
+  border-bottom: 1px solid #ccc;
+}
+.right {
+  display: flex;
+  justify-content: space-between;
+}
+.price {
+  border-bottom: 1px solid #ccc;
+  padding-right: 0.1rem;
+}

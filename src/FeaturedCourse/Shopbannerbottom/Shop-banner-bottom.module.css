@@ -1,0 +1,16 @@
+/* .banerbottom:not(:last-child):after {
+  margin-right: 28px;
+} */
+.banerbottom {
+  display: flex;
+  gap: 14px; /* This will add gap between flex items */
+  margin-right: -14px; /* Counteract the last item's margin-right */
+}
+
+.banerbottom > * {
+  margin-right: 14px; /* Apply margin-right to all children */
+}
+
+.banerbottom > :last-child {
+  margin-right: 0; /* Remove margin-right from the last child */
+}
